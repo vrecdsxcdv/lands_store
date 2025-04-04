@@ -1,0 +1,9 @@
+.item {
+  cursor: pointer;
+  transition: all 0.4s;
+  border-radius: 10px;
+  overflow: hidden;
+  &:hover {
+    transform: scale(110%);
+  }
+}

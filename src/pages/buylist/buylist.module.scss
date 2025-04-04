@@ -1,0 +1,23 @@
+.buylist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+
+  h2 {
+    margin-top: 20px;
+  }
+  .items {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    img {
+      width: 202px;
+      height: 258px;
+    }
+  }
+}

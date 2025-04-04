@@ -1,0 +1,59 @@
+.header {
+  border-bottom: 1px solid black;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+
+  button {
+    background-color: white;
+    border: 0px;
+    width: 92px;
+    height: auto;
+    transition: 0.4s ease;
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+}
+.header button img {
+  width: 100%;
+  height: 100%;
+}
+.navigate {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  border-bottom: 1px solid black;
+}
+.Nav {
+  align-items: center;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+}
+.Nav a {
+  font-weight: 300px;
+}
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+.underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-out;
+}
+.underline:hover::before {
+  width: 100%;
+}
