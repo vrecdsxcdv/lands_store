@@ -14,7 +14,6 @@ export function Buylist() {
         "https://67d03054825945773eafe667.mockapi.io/api/v1/Cloth"
       );
     };
-    setCurrentList(request().result.data);
   }, []);
 
   return (
